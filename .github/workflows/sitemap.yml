@@ -19,7 +19,7 @@ jobs:
       - name: 2. 사이트맵 자동 생성기 실행
         uses: cicirello/generate-sitemap@v1
         with:
-          base-url-path: /
+          base-url-path: https://loveyak.wnxbnfyba744.workers.dev/
           drop-html-extension: true
           
       - name: 3. 만들어진 사이트맵을 서버에 자동 저장 (Commit & Push)
